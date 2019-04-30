@@ -1,0 +1,60 @@
+body {
+  margin: 0; }
+
+.nav, .wrapper {
+  display: flex; }
+  .nav .left, .nav .middle, .nav .right, .wrapper .left, .wrapper .middle, .wrapper .right {
+    height: 50px;
+    min-width: 200px;
+    margin: 0;
+    flex: 1; }
+  .nav .left, .wrapper .left {
+    background: #ffcdd2; }
+  .nav .middle, .wrapper .middle {
+    background: #bbdefb; }
+  .nav .right, .wrapper .right {
+    background: #fff9c4; }
+
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  background: gray;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1; }
+  .wrapper > div .name {
+    font-family: 'Kaushan Script', cursive; }
+  .wrapper > div .job-title {
+    font-family: 'Poppins', sans-serif; }
+
+.image-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .image-heading img {
+    max-height: 200px; }
+
+.parallax1 {
+  /* The image used */
+  background-image: url("images/ga.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax2 {
+  /* The image used */
+  background-image: url("images/ga.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */
