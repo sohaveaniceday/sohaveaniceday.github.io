@@ -4,6 +4,20 @@ body {
     margin: 0;
 }
 
+main {
+  font-family: 'Roboto', sans-serif;
+  p {
+    font-size: 20px;
+  }
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background: #F46119;
+    z-index: 1;
+}
+
 .nav, .wrapper {
   display: flex;
   .left, .middle, .right {
@@ -13,23 +27,19 @@ body {
   flex: 1;
 }
 
-.left {
-  background: #ffcdd2;
+.description {
+    text-align:center;
+}
 }
 
-.middle {
-  background: #bbdefb;
-}
-
-.right {
-  background: #fff9c4;
-}
+.heading {
+    padding: 50px 0 0 0;
 }
 
 .wrapper > div {
     font-size: 4vh;
-    color: white;
-    background: gray;
+    color: black;
+    background: transparent;
     margin: .1em;
     padding: .3em;
     border-radius: 3px;
@@ -47,35 +57,45 @@ body {
     align-items: center;
     justify-content: flex-end;
     img { 
-    max-height: 200px;
+    max-height: 250px;
     }
 
 }
 
-.parallax1 {
-  /* The image used */
-  background-image: url("images/ga.jpg");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
+.parallax1, .parallax2 {
+  min-height: 400px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("images/ga.png");
+  border-left: 100vw solid transparent;
+  border-top: 100px solid white;
+  border-bottom: 100px solid white;
 }
 
 .parallax2 {
-  /* The image used */
-  background-image: url("images/ga.jpg");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("images/experience.png");
+  border-top: 100px solid white;
+  border-bottom: 100px solid white;
+  border-right: 100vw solid transparent;
 }
+
+.slideInLeft, .slideInRight {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+
+
+
