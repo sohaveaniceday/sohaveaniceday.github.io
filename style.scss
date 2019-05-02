@@ -5,8 +5,12 @@ body {
     background: #FFD49B;
 }
 
+.gradient-test {
+  background-image: linear-gradient(#FFD49B, #FF9000, #F46119);
+}
+
 main {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   p {
     font-size: 20px;
   }
@@ -76,13 +80,20 @@ main {
 
 .dark-background {
     background: #360C26;
-    p {
-      color: white;
-    }
+    font-family: 'Raleway', sans-serif;
+  p, h5, h2 {
+        color: white;
+  }
+  h2 {
+    font-family: 'Kaushan Script', cursive;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 
 .parallax1, .parallax2 {
-  min-height: 300px; 
+  min-height: 200px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,17 +112,17 @@ main {
   background-image: url("images/ga.png");
   border-left: 100vw solid transparent;
   border-top: 100px solid#360C26;
-  border-bottom: 100px solid #FFD49B;
+  border-bottom: 100px solid #360C26;
 }
 
 .parallax2 {
   background-image: url("images/experience.png");
-  border-top: 100px solid #FFD49B;
-  border-bottom: 100px solid #FFD49B;
+  border-top: 100px solid #360C26;
+  border-bottom: 100px solid #360C26;
   border-right: 100vw solid transparent;
 }
 
-.slideInLeft, .slideInRight {
+.slideInLeft, .slideInRight, .fadeInUp {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
 }
@@ -122,6 +133,10 @@ main {
 .slideInRight {
     -webkit-animation-name: slideInRight;
     animation-name: slideInRight;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
 }
 
 
