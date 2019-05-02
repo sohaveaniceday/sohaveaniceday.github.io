@@ -23,14 +23,23 @@ main {
     padding: 20px 150px;
 }
 
-.nav {
-    position: fixed;
-    width: 100%;
-    background: transparent;
-    z-index: 1;
-}
+// .nav {
+//     position: fixed;
+//     width: 100%;
+//     background: transparent;
+//     z-index: 1;
+// }
 
-.nav, .wrapper {
+// .nav, {
+//   display: flex;
+//   .left, .middle, .right {
+//   height: 50px;
+//   min-width: 200px;
+//   margin: 0;
+//   flex: 1;
+// }
+
+.wrapper {
   display: flex;
   .left, .middle, .right {
   height: 50px;
@@ -38,6 +47,7 @@ main {
   margin: 0;
   flex: 1;
 }
+
 .container {
     padding: 20px 150px;
 }
@@ -47,33 +57,33 @@ main {
 }
 
 .header {
-    padding: 70px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .wrapper > div {
     font-size: 4vh;
     color: black;
     background: transparent;
-    margin: .1em;
-    padding: .3em;
+    margin: 0;
+    padding: 0;
     border-radius: 3px;
     flex: 1;
     .name {
         font-family: 'Kaushan Script', cursive;
-        margin: 40px 0 0 0;
         color: #360C26;
+        margin: 0;
         }
     .job-title {
         font-family: 'Poppins', sans-serif;
         letter-spacing: 18px;
-        margin: 0 0 40px 0;
         color: #360C26;
+        margin: 0;
     }
 }
 
 .scroll {
     font-family: 'Poppins', sans-serif;
-    animation-delay: 2s;
+    animation-delay: 3s;
     margin: 0;
     padding: 0;
     div {
@@ -85,10 +95,15 @@ main {
 .image-heading {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     img { 
-    max-height: 250px;
+    max-height: 220px;
     }
+}
+
+.wording-heading {
+  text-align: center;
+  margin: 0;
 }
 
 .project-image {

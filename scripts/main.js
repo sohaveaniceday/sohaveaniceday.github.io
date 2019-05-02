@@ -15,4 +15,20 @@ $(document).ready(function () {
     //     $('#element-to-animate2').addClass('fadeInUp');
     // }, { offset: '90%' });
 
+    var alterClass = function () {
+        var ww = document.body.clientWidth;
+        if (ww < 1000) {
+            $('.tech-icon').removeClass('fa-3x');
+            $('.add-wrapper').addClass('wrapper');
+        } else {
+            $('.tech-icon').addClass('fa-3x');
+            $('.add-wrapper').removeClass('wrapper');
+        };
+    };
+    $(window).resize(function () {
+        alterClass();
+    });
+    //Fire it when the page first loads:
+    alterClass();
+
 })

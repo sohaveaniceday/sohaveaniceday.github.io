@@ -15,48 +15,42 @@ main {
 .container {
   padding: 20px 150px; }
 
-.nav {
-  position: fixed;
-  width: 100%;
-  background: transparent;
-  z-index: 1; }
-
-.nav, .wrapper {
+.wrapper {
   display: flex; }
-  .nav .left, .nav .middle, .nav .right, .wrapper .left, .wrapper .middle, .wrapper .right {
+  .wrapper .left, .wrapper .middle, .wrapper .right {
     height: 50px;
     min-width: 200px;
     margin: 0;
     flex: 1; }
-  .nav .container, .wrapper .container {
+  .wrapper .container {
     padding: 20px 150px; }
-  .nav .description, .wrapper .description {
+  .wrapper .description {
     text-align: center; }
 
 .header {
-  padding: 70px 0 0 0; }
+  padding: 10px 0 0 0; }
 
 .wrapper > div {
   font-size: 4vh;
   color: black;
   background: transparent;
-  margin: .1em;
-  padding: .3em;
+  margin: 0;
+  padding: 0;
   border-radius: 3px;
   flex: 1; }
   .wrapper > div .name {
     font-family: 'Kaushan Script', cursive;
-    margin: 40px 0 0 0;
-    color: #360C26; }
+    color: #360C26;
+    margin: 0; }
   .wrapper > div .job-title {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 18px;
-    margin: 0 0 40px 0;
-    color: #360C26; }
+    color: #360C26;
+    margin: 0; }
 
 .scroll {
   font-family: 'Poppins', sans-serif;
-  animation-delay: 2s;
+  animation-delay: 3s;
   margin: 0;
   padding: 0; }
   .scroll div {
@@ -66,9 +60,13 @@ main {
 .image-heading {
   display: flex;
   align-items: center;
-  justify-content: flex-end; }
+  justify-content: center; }
   .image-heading img {
-    max-height: 250px; }
+    max-height: 220px; }
+
+.wording-heading {
+  text-align: center;
+  margin: 0; }
 
 .project-image img {
   max-height: 300px; }
