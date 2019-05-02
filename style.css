@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: #FFD49B; }
+  background: #FFD49B;
+  overflow-x: hidden; }
 
 .gradient-test {
   background-image: linear-gradient(#FFD49B, #FF9000, #F46119); }
@@ -52,6 +53,15 @@ main {
     margin: 0 0 40px 0;
     color: #360C26; }
 
+.scroll {
+  font-family: 'Poppins', sans-serif;
+  animation-delay: 2s;
+  margin: 0;
+  padding: 0; }
+  .scroll div {
+    color: #360C26;
+    text-align: center; }
+
 .image-heading {
   display: flex;
   align-items: center;
@@ -69,7 +79,7 @@ main {
   .dark-background p {
     font-size: 20px; }
 
-.parallax1, .parallax2, .parallax3 {
+.parallax1, .parallax2, .parallax3, .parallax4 {
   min-height: 200px;
   background-attachment: fixed;
   background-position: center;
@@ -96,12 +106,18 @@ main {
   border-right: 100vw solid transparent; }
 
 .parallax3 {
-  background-image: url("images/projects.png");
+  background-image: url("images/technologies.png");
   border-left: 100vw solid transparent;
   border-top: 100px solid #360C26;
   border-bottom: 100px solid #360C26; }
 
-.slideInLeft, .slideInRight, .fadeInUp {
+.parallax4 {
+  background-image: url("images/projects.png");
+  border-top: 100px solid #360C26;
+  border-bottom: 100px solid #360C26;
+  border-right: 100vw solid transparent; }
+
+.slideInLeft, .slideInRight, .fadeInUp, .fadeIn {
   -webkit-animation-duration: 2s;
   animation-duration: 2s; }
 
@@ -116,5 +132,9 @@ main {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
 
 /*# sourceMappingURL=style.css.map */
