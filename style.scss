@@ -2,6 +2,7 @@ $primary-color: #343434;
 
 body {
     margin: 0;
+    background: #FFD49B;
 }
 
 main {
@@ -11,10 +12,14 @@ main {
   }
 }
 
+.container {
+    padding: 20px 150px;
+}
+
 .nav {
     position: fixed;
     width: 100%;
-    background: #F46119;
+    background: transparent;
     z-index: 1;
 }
 
@@ -26,14 +31,16 @@ main {
   margin: 0;
   flex: 1;
 }
-
+.container {
+    padding: 20px 150px;
+}
 .description {
     text-align:center;
 }
 }
 
-.heading {
-    padding: 50px 0 0 0;
+.header {
+    padding: 70px 0 0 0;
 }
 
 .wrapper > div {
@@ -46,9 +53,14 @@ main {
     flex: 1;
     .name {
         font-family: 'Kaushan Script', cursive;
+        margin: 40px 0 0 0;
+        color: #360C26;
         }
     .job-title {
         font-family: 'Poppins', sans-serif;
+        letter-spacing: 18px;
+        margin: 0 0 40px 0;
+        color: #360C26;
     }
 }
 
@@ -62,25 +74,40 @@ main {
 
 }
 
+.dark-background {
+    background: #360C26;
+    p {
+      color: white;
+    }
+}
+
 .parallax1, .parallax2 {
-  min-height: 400px; 
+  min-height: 300px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.trees {
+  min-height: 300px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/trees.png");
+}
+
 .parallax1 {
   background-image: url("images/ga.png");
   border-left: 100vw solid transparent;
-  border-top: 100px solid white;
-  border-bottom: 100px solid white;
+  border-top: 100px solid#360C26;
+  border-bottom: 100px solid #FFD49B;
 }
 
 .parallax2 {
   background-image: url("images/experience.png");
-  border-top: 100px solid white;
-  border-bottom: 100px solid white;
+  border-top: 100px solid #FFD49B;
+  border-bottom: 100px solid #FFD49B;
   border-right: 100vw solid transparent;
 }
 
