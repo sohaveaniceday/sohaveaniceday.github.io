@@ -95,6 +95,12 @@ main {
   border-bottom: 100px solid #360C26;
   border-right: 100vw solid transparent; }
 
+.parallax3 {
+  background-image: url("images/projects.png");
+  border-left: 100vw solid transparent;
+  border-top: 100px solid #360C26;
+  border-bottom: 100px solid #360C26; }
+
 .slideInLeft, .slideInRight, .fadeInUp {
   -webkit-animation-duration: 2s;
   animation-duration: 2s; }
