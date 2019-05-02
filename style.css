@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  background: #FFD49B;
   overflow-x: hidden; }
+  body a {
+    text-decoration: none; }
 
 .gradient-test {
   background-image: linear-gradient(#FFD49B, #FF9000, #F46119); }
@@ -69,6 +70,9 @@ main {
   .image-heading img {
     max-height: 250px; }
 
+.project-image img {
+  max-height: 300px; }
+
 .dark-background {
   background: #360C26;
   font-family: 'Raleway', sans-serif; }
@@ -79,7 +83,10 @@ main {
   .dark-background p {
     font-size: 20px; }
 
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.icons i {
+  color: white; }
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
   min-height: 200px;
   background-attachment: fixed;
   background-position: center;
@@ -116,6 +123,12 @@ main {
   border-top: 100px solid #360C26;
   border-bottom: 100px solid #360C26;
   border-right: 100vw solid transparent; }
+
+.parallax5 {
+  background-image: url("images/contact.png");
+  border-left: 100vw solid transparent;
+  border-top: 100px solid #360C26;
+  border-bottom: 100px solid #360C26; }
 
 .slideInLeft, .slideInRight, .fadeInUp, .fadeIn {
   -webkit-animation-duration: 2s;
