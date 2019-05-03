@@ -77,7 +77,7 @@ main {
 .dark-background {
   background: #360C26;
   font-family: 'Raleway', sans-serif; }
-  .dark-background p, .dark-background h5, .dark-background h2 {
+  .dark-background p, .dark-background h5, .dark-background h2, .dark-background h6 {
     color: white; }
   .dark-background h2 {
     font-family: 'Kaushan Script', cursive; }
