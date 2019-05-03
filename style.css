@@ -148,4 +148,17 @@ main {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
 
+@media only screen and (max-width: 1200px) {
+  .desktop-only {
+    display: none; } }
+@media only screen and (min-width: 1201px) {
+  .mobile-only {
+    display: none; } }
+@media only screen and (max-width: 400px) {
+  .name {
+    font-size: 40px; }
+
+  .job-title {
+    font-size: 20px; } }
+
 /*# sourceMappingURL=style.css.map */

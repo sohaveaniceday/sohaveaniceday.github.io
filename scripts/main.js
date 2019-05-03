@@ -15,7 +15,7 @@ $(document).ready(function () {
     //     $('#element-to-animate2').addClass('fadeInUp');
     // }, { offset: '90%' });
 
-    var alterClass = function () {
+    var alterClassTablet = function () {
         var ww = document.body.clientWidth;
         if (ww < 1000) {
             $('.tech-icon').removeClass('fa-3x');
@@ -26,9 +26,22 @@ $(document).ready(function () {
         };
     };
     $(window).resize(function () {
-        alterClass();
+        alterClassTablet();
     });
-    //Fire it when the page first loads:
-    alterClass();
+
+    var alterClassDesktop = function () {
+        var ww = document.body.clientWidth;
+        if (ww <= 1200) {
+            $('.project-wrapper').removeClass('wrapper');
+        } else {
+            $('.project-wrapper').addClass('wrapper');
+        };
+    };
+    $(window).resize(function () {
+        alterClassDesktop();
+    });
+
+    alterClassTablet();
+    alterClassDesktop();
 
 })
