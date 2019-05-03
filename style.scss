@@ -223,6 +223,8 @@ main {
 }
 }
 
+
+
 @media only screen and (max-width: 500px){
 
 .name {
@@ -252,8 +254,14 @@ main {
     img { 
     max-height: 200px;
     }
+  }
+.wrapper .container {
+    padding: 30px;
 }
 }
 
-
-
+// @media only screen and (max-width: 768px) {
+// .parallax-img {
+//   background-attachment: inherit;
+// }
+// }
