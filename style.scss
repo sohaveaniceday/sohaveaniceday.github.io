@@ -1,8 +1,9 @@
 $primary-color: #343434;
 
+body, html { overflow-x:hidden; }
+
 body {
     margin: 0;
-    overflow-x: hidden;
     a {
       text-decoration: none;
     }
