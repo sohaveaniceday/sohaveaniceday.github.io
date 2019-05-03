@@ -173,6 +173,9 @@ main {
     max-height: 200px; }
 
   .wrapper .container {
-    padding: 30px; } }
+    padding: 30px; }
+
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

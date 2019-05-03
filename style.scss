@@ -237,9 +237,6 @@ main {
     div { font-size: 20px }
 }
 
-// .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
-//   display: none;
-// }
 
 .wrapper .container {
     padding: 20px;
@@ -258,10 +255,8 @@ main {
 .wrapper .container {
     padding: 30px;
 }
-}
 
-// @media only screen and (max-width: 768px) {
-// .parallax-img {
-//   background-attachment: inherit;
-// }
-// }
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+  display: none;
+}
+}
