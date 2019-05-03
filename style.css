@@ -154,11 +154,23 @@ main {
 @media only screen and (min-width: 1201px) {
   .mobile-only {
     display: none; } }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .name {
     font-size: 40px; }
 
   .job-title {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .scroll div {
+    font-size: 20px; }
+
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+    display: none; }
+
+  .wrapper .container {
+    padding: 20px; } }
+@media only screen and (max-width: 800px) {
+  .project-image img {
+    max-height: 200px; } }
 
 /*# sourceMappingURL=style.css.map */
