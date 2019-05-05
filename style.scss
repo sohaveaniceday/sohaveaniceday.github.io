@@ -4,6 +4,10 @@ body, html {
   overflow-x:hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
     margin: 0;
@@ -43,6 +47,117 @@ main {
 //   margin: 0;
 //   flex: 1;
 // }
+
+.quarter-circle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  text-align: center;
+  background: white;
+  opacity: 0.9;
+  border-bottom-right-radius: 100%;
+  font-size: 1.5rem;
+  animation: shrink 2s ease infinite;
+}
+
+.nav {
+  -webkit-transition: left 0.5s ease;
+  -moz-transition: left 0.5s ease;
+  -ms-transition: left 0.5s ease;
+  -o-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+  background: white;
+  opacity: 0.9;
+  color: black;
+  cursor: pointer;
+  font-size: 1.8rem;
+  height: 100vh;
+  left: -30rem;
+  padding: 6rem 2rem 2rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 15rem;
+  z-index: 1;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav.expanded { left: 0; }
+
+.nav ul {
+  position: absolute;
+  top: 15%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  a {
+    color: #360C26;
+  }
+}
+
+.nav-toggle {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  height: 2rem;
+  left: 0.7rem;
+  position: fixed;
+  top: 0.8rem;
+  width: 2.5rem;
+  z-index: 2;
+}
+
+.nav-toggle:hover { opacity: 0.8; }
+
+.nav-toggle .nav-toggle-bar,  .nav-toggle .nav-toggle-bar::after,  .nav-toggle .nav-toggle-bar::before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #360C26;
+  content: '';
+  height: 0.3rem;
+  width: 100%;
+}
+
+.nav-toggle .nav-toggle-bar { margin-top: 0; }
+
+.nav-toggle .nav-toggle-bar::after { margin-top: 0.8rem; }
+
+.nav-toggle .nav-toggle-bar::before { margin-top: -0.8rem; }
+
+.nav-toggle.expanded .nav-toggle-bar { background: transparent; }
+
+.nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
+  background: #360C26;
+  margin-top: 0;
+}
+
+.nav-toggle.expanded .nav-toggle-bar::after {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-toggle.expanded .nav-toggle-bar::before {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
 
 .wrapper {
   display: flex;
@@ -189,17 +304,13 @@ main {
   border-bottom: 100px solid #360C26;
 }
 
-.slideInLeft, .slideInRight, .fadeInUp, .fadeIn {
+.slideInDown, .fadeInUp, .fadeIn {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
 }
-.slideInLeft {
-    -webkit-animation-name: slideInLeft;
-    animation-name: slideInLeft;
-}
-.slideInRight {
-    -webkit-animation-name: slideInRight;
-    animation-name: slideInRight;
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
 }
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
