@@ -127,6 +127,9 @@ main {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
+.delay {
+  animation-delay: 3s; }
+
 .wrapper {
   display: flex; }
   .wrapper .left, .wrapper .middle, .wrapper .right {
