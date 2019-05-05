@@ -1,4 +1,3 @@
-# sohaveaniceday.github.io
-Portfolio Site
+# Portfolio
 
-Work in progress...
+[Deployed Project Link](http://richard-turner.com/)
