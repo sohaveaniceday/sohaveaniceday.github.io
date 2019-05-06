@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('#element-to-animate0').css('opacity', 0);
     $('#element-to-animate0').waypoint(function () {
-        $('#element-to-animate0').addClass('fadeInUp');
+        $('#element-to-animate0').addClass('fadeIn');
     }, { offset: '70%' });
 
     // $('#element-to-animate1').css('opacity', 0);
