@@ -33,7 +33,8 @@ main {
   opacity: 0.9;
   border-radius: 50%;
   font-size: 1.5rem;
-  animation: shrink 2s ease infinite; }
+  animation: shrink 2s ease infinite;
+  box-shadow: 1px 1px 6px #303030; }
 
 .nav {
   -webkit-transition: left 0.5s ease;
@@ -60,7 +61,7 @@ main {
 
 .nav ul {
   position: absolute;
-  top: 15%;
+  top: 17%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
