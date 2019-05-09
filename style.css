@@ -164,6 +164,9 @@ main {
     color: #360C26;
     margin: 0; }
 
+#technologies p {
+  font-family: 'Poppins', sans-serif; }
+
 .scroll {
   font-family: 'Poppins', sans-serif;
   animation-delay: 3s;
@@ -190,7 +193,7 @@ main {
 .dark-background {
   background: #360C26;
   font-family: 'Raleway', sans-serif; }
-  .dark-background p, .dark-background h5, .dark-background h2, .dark-background h6 {
+  .dark-background p, .dark-background h5, .dark-background h2, .dark-background h6, .dark-background i {
     color: white; }
   .dark-background h2 {
     font-family: 'Kaushan Script', cursive; }
@@ -286,6 +289,9 @@ main {
     padding: 20px; }
 
   .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
-    display: none; } }
+    display: none; }
+
+  #technologies p {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

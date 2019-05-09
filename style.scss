@@ -205,6 +205,12 @@ main {
     }
 }
 
+#technologies {
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
 .scroll {
     font-family: 'Poppins', sans-serif;
     animation-delay: 3s;
@@ -239,7 +245,7 @@ main {
 .dark-background {
     background: #360C26;
     font-family: 'Raleway', sans-serif;
-  p, h5, h2, h6 {
+  p, h5, h2, h6, i {
         color: white;
   }
   h2 {
@@ -375,4 +381,11 @@ main {
 .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
   display: none;
 }
+
+#technologies {
+  p {
+    font-size: 16px;
+  }
+}
+
 }
