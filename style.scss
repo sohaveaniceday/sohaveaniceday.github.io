@@ -32,22 +32,6 @@ main {
     padding: 20px 150px;
 }
 
-// .nav {
-//     position: fixed;
-//     width: 100%;
-//     background: transparent;
-//     z-index: 1;
-// }
-
-// .nav, {
-//   display: flex;
-//   .left, .middle, .right {
-//   height: 50px;
-//   min-width: 200px;
-//   margin: 0;
-//   flex: 1;
-// }
-
 .quarter-circle {
   position: fixed;
   top: 2px;
@@ -223,17 +207,16 @@ main {
 }
 
 .image-heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     img { 
     max-height: 220px;
+    padding: 0 10px;
     }
 }
 
 .wording-heading {
-  text-align: center;
-  margin: 0;
+    text-align: center;
+    margin: 120px 0 0 0 !important;
+
 }
 
 .project-image {
@@ -250,6 +233,10 @@ main {
   }
   h2 {
     font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+  }
+  h5 {
+    font-size: 30px;
   }
   p {
     font-size: 20px;

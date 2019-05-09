@@ -176,16 +176,13 @@ main {
     color: #360C26;
     text-align: center; }
 
-.image-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .image-heading img {
-    max-height: 220px; }
+.image-heading img {
+  max-height: 220px;
+  padding: 0 10px; }
 
 .wording-heading {
   text-align: center;
-  margin: 0; }
+  margin: 120px 0 0 0 !important; }
 
 .project-image img {
   max-height: 300px; }
@@ -196,7 +193,10 @@ main {
   .dark-background p, .dark-background h5, .dark-background h2, .dark-background h6, .dark-background i, .dark-background a {
     color: white; }
   .dark-background h2 {
-    font-family: 'Kaushan Script', cursive; }
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px; }
+  .dark-background h5 {
+    font-size: 30px; }
   .dark-background p {
     font-size: 20px; }
 
