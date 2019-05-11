@@ -250,7 +250,7 @@ main {
    }
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
   min-height: 200px; 
   background-attachment: fixed;
   background-position: center;
@@ -296,6 +296,13 @@ main {
 
 .parallax5 {
   background-image: url("images/contact.png");
+  border-top: 100px solid #360C26;
+  border-bottom: 100px solid #360C26;
+  border-right: 100vw solid transparent;
+}
+
+.parallax6 {
+  background-image: url("images/interests.png");
   border-left: 100vw solid transparent;
   border-top: 100px solid#360C26;
   border-bottom: 100px solid #360C26;
