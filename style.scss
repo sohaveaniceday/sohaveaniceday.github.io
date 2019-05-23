@@ -195,6 +195,11 @@ main {
   }
 }
 
+.fa-chevron-down {
+  color: #360C26;
+}
+
+
 .scroll {
     font-family: 'Poppins', sans-serif;
     animation-delay: 3s;
@@ -353,11 +358,9 @@ main {
     div { font-size: 20px }
 }
 
-
 .wrapper .container {
     padding: 20px;
 }
-
 
 }
 
@@ -376,10 +379,5 @@ main {
   display: none;
 }
 
-#technologies {
-  p {
-    font-size: 16px;
-  }
-}
 
 }

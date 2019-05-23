@@ -11,7 +11,7 @@ body {
     text-decoration: none; }
 
 .gradient-test {
-  background-image: linear-gradient(#FFD49B, #FF9000, #F46119); }
+  background-image: linear-gradient(#FFD49B, #FF9000, red); }
 
 main {
   font-family: 'Raleway', sans-serif; }
@@ -166,9 +166,6 @@ main {
 
 #technologies p {
   font-family: 'Poppins', sans-serif; }
-
-.fa-chevron-down {
-  color: #360C26; }
 
 .scroll {
   font-family: 'Poppins', sans-serif;
