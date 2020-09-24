@@ -1,24 +1,24 @@
 $primary-color: #343434;
 
-body, html { 
-  overflow-x:hidden;
+body,
+html {
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-
 body {
-    margin: 0;
-    background: #360C26;
-    a {
-      text-decoration: none;
-    }
+  margin: 0;
+  background: #360c26;
+  a {
+    text-decoration: none;
+  }
 }
 
 .gradient-test {
-  background-image: linear-gradient(#FFD49B, #FF9000, #F46119);
+  background-image: linear-gradient(#ffd49b, #ff9000, #f46119);
 }
 
 main {
@@ -29,7 +29,7 @@ main {
 }
 
 .container {
-    padding: 20px 150px;
+  padding: 20px 150px;
 }
 
 .quarter-circle {
@@ -69,7 +69,9 @@ main {
   font-family: 'Raleway', sans-serif;
 }
 
-.nav.expanded { left: 0; }
+.nav.expanded {
+  left: 0;
+}
 
 .nav ul {
   position: absolute;
@@ -81,7 +83,7 @@ main {
   margin: 0;
   padding: 0;
   a {
-    color: #360C26;
+    color: #360c26;
   }
 }
 
@@ -98,9 +100,13 @@ main {
   z-index: 2;
 }
 
-.nav-toggle:hover { opacity: 0.8; }
+.nav-toggle:hover {
+  opacity: 0.8;
+}
 
-.nav-toggle .nav-toggle-bar,  .nav-toggle .nav-toggle-bar::after,  .nav-toggle .nav-toggle-bar::before {
+.nav-toggle .nav-toggle-bar,
+.nav-toggle .nav-toggle-bar::after,
+.nav-toggle .nav-toggle-bar::before {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -111,22 +117,31 @@ main {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background: #360C26;
+  background: #360c26;
   content: '';
   height: 4px;
   width: 100%;
 }
 
-.nav-toggle .nav-toggle-bar { margin-top: 0; }
+.nav-toggle .nav-toggle-bar {
+  margin-top: 0;
+}
 
-.nav-toggle .nav-toggle-bar::after { margin-top: 0.8rem; }
+.nav-toggle .nav-toggle-bar::after {
+  margin-top: 0.8rem;
+}
 
-.nav-toggle .nav-toggle-bar::before { margin-top: -0.8rem; }
+.nav-toggle .nav-toggle-bar::before {
+  margin-top: -0.8rem;
+}
 
-.nav-toggle.expanded .nav-toggle-bar { background: transparent; }
+.nav-toggle.expanded .nav-toggle-bar {
+  background: transparent;
+}
 
-.nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
-  background: #360C26;
+.nav-toggle.expanded .nav-toggle-bar::after,
+.nav-toggle.expanded .nav-toggle-bar::before {
+  background: #360c26;
   margin-top: 0;
 }
 
@@ -143,50 +158,51 @@ main {
 }
 
 .delay {
-      animation-delay: 3s;
+  animation-delay: 3s;
 }
-
 
 .wrapper {
   display: flex;
-  .left, .middle, .right {
-  height: 50px;
-  min-width: 200px;
-  margin: 0;
-  flex: 1;
-}
+  .left,
+  .middle,
+  .right {
+    height: 50px;
+    min-width: 200px;
+    margin: 0;
+    flex: 1;
+  }
 
-.container {
+  .container {
     padding: 20px 150px;
-}
-.description {
-    text-align:center;
-}
+  }
+  .description {
+    text-align: center;
+  }
 }
 
 .header {
-    padding: 10px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .wrapper > div {
-    font-size: 4vh;
-    color: black;
-    background: transparent;
+  font-size: 4vh;
+  color: black;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  flex: 1;
+  .name {
+    font-family: 'Kaushan Script', cursive;
+    color: #360c26;
     margin: 0;
-    padding: 0;
-    border-radius: 3px;
-    flex: 1;
-    .name {
-        font-family: 'Kaushan Script', cursive;
-        color: #360C26;
-        margin: 0;
-        }
-    .job-title {
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 18px;
-        color: #360C26;
-        margin: 0;
-    }
+  }
+  .job-title {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 18px;
+    color: #360c26;
+    margin: 0;
+  }
 }
 
 #technologies {
@@ -196,45 +212,48 @@ main {
 }
 
 .fa-chevron-down {
-  color: #360C26;
+  color: #360c26;
 }
 
-
 .scroll {
-    font-family: 'Poppins', sans-serif;
-    animation-delay: 3s;
-    margin: 0;
-    padding: 0;
-    div {
-      color: #360C26;
-      text-align:center;
-    }
+  font-family: 'Poppins', sans-serif;
+  animation-delay: 3s;
+  margin: 0;
+  padding: 0;
+  div {
+    color: #360c26;
+    text-align: center;
+  }
 }
 
 .image-heading {
-    img { 
+  img {
     max-height: 220px;
     padding: 0 10px;
-    }
+  }
 }
 
 .wording-heading {
-    text-align: center;
-    margin: 120px 0 0 0 !important;
-
+  text-align: center;
+  margin: 120px 0 0 0 !important;
 }
 
 .project-image {
-    img { 
+  img {
     max-height: 300px;
-    }
+  }
 }
 
 .dark-background {
-    background: #360C26;
-    font-family: 'Raleway', sans-serif;
-  p, h5, h2, h6, i, a {
-        color: white;
+  background: #360c26;
+  font-family: 'Raleway', sans-serif;
+  p,
+  h5,
+  h2,
+  h6,
+  i,
+  a {
+    color: white;
   }
   h2 {
     font-family: 'Kaushan Script', cursive;
@@ -249,14 +268,19 @@ main {
 }
 
 .icons {
-  i {  
+  i {
     color: white;
-
-   }
+  }
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
-  min-height: 200px; 
+.parallax0,
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4,
+.parallax5,
+.parallax6 {
+  min-height: 200px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -264,120 +288,127 @@ main {
 }
 
 .trees {
-  min-height: 300px; 
+  min-height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/trees.png");
+  background-image: url('images/trees.png');
 }
 
-.parallax1 {
-  background-image: url("images/ga.png");
+.parallax0 {
+  background-image: url('images/jdlt.png');
   border-left: 100vw solid transparent;
   border-top: 100px solid#360C26;
-  border-bottom: 100px solid #360C26;
+  border-bottom: 100px solid #360c26;
+}
+.parallax1 {
+  background-image: url('images/ga.png');
+  border-left: 100vw solid transparent;
+  border-top: 100px solid#360C26;
+  border-bottom: 100px solid #360c26;
 }
 
 .parallax2 {
-  background-image: url("images/experience.png");
-  border-top: 100px solid #360C26;
-  border-bottom: 100px solid #360C26;
+  background-image: url('images/experience.png');
+  border-top: 100px solid #360c26;
+  border-bottom: 100px solid #360c26;
   border-right: 100vw solid transparent;
 }
 
 .parallax3 {
-  background-image: url("images/technologies.png");
+  background-image: url('images/technologies.png');
   border-left: 100vw solid transparent;
   border-top: 100px solid#360C26;
-  border-bottom: 100px solid #360C26;
+  border-bottom: 100px solid #360c26;
 }
 
 .parallax4 {
-  background-image: url("images/projects.png");
-  border-top: 100px solid #360C26;
-  border-bottom: 100px solid #360C26;
+  background-image: url('images/projects.png');
+  border-top: 100px solid #360c26;
+  border-bottom: 100px solid #360c26;
   border-right: 100vw solid transparent;
 }
 
 .parallax5 {
-  background-image: url("images/contact.png");
-  border-top: 100px solid #360C26;
-  border-bottom: 100px solid #360C26;
+  background-image: url('images/contact.png');
+  border-top: 100px solid #360c26;
+  border-bottom: 100px solid #360c26;
   border-right: 100vw solid transparent;
 }
 
 .parallax6 {
-  background-image: url("images/interests.png");
+  background-image: url('images/interests.png');
   border-left: 100vw solid transparent;
   border-top: 100px solid#360C26;
-  border-bottom: 100px solid #360C26;
+  border-bottom: 100px solid #360c26;
 }
 
-.slideInDown, .fadeInUp, .fadeIn {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
+.slideInDown,
+.fadeInUp,
+.fadeIn {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
 }
 .slideInDown {
-    -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
 }
 .fadeInUp {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
-@media only screen and (max-width: 1200px){
-
-.desktop-only {
-  display: none;
-}
-}
-
-@media only screen and (min-width: 1201px){
-
-.mobile-only {
-  display: none;
-}
+@media only screen and (max-width: 1200px) {
+  .desktop-only {
+    display: none;
+  }
 }
 
-
-
-@media only screen and (max-width: 500px){
-
-.name {
-  font-size: 40px
-}
-.job-title {
-  font-size: 20px
-}
-.scroll {
-    div { font-size: 20px }
+@media only screen and (min-width: 1201px) {
+  .mobile-only {
+    display: none;
+  }
 }
 
-.wrapper .container {
-    padding: 20px;
-}
-
-}
-
-@media only screen and (max-width: 800px){
-
-.project-image {
-    img { 
-    max-height: 200px;
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 40px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
+  .scroll {
+    div {
+      font-size: 20px;
     }
   }
-.wrapper .container {
+
+  .wrapper .container {
     padding: 20px;
+  }
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
-  display: none;
-}
+@media only screen and (max-width: 800px) {
+  .project-image {
+    img {
+      max-height: 200px;
+    }
+  }
+  .wrapper .container {
+    padding: 20px;
+  }
 
-
+  .parallax0,
+  .parallax1,
+  .parallax2,
+  .parallax3,
+  .parallax4,
+  .parallax5,
+  .parallax6 {
+    display: none;
+  }
 }
